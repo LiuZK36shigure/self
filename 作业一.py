@@ -72,9 +72,9 @@ def save_teachers_to_csv(teachers, csv_file_path):
             writer.writerow([department, name, title, photo_path])
 
 # 示例用法
-html_file_path1 = r"教授-数字媒体与设计艺术学院.htm"
-html_file_path2 = (r"副教授-数字媒体与设计艺术学院.html")
-html_file_path3 = (r"讲师-数字媒体与设计艺术学院.htm")# HTML文件路径
+html_file_path1 = r"作业一/教授-数字媒体与设计艺术学院.htm"
+html_file_path2 = (r"作业一/副教授-数字媒体与设计艺术学院.html")
+html_file_path3 = (r"作业一/讲师-数字媒体与设计艺术学院.htm")# HTML文件路径
 csv_file_path = r"teachers.csv"  # 保存CSV文件的路径
 
 teachers = parse_html_file(html_file_path1) +parse_html_file(html_file_path2)+parse_html_file(html_file_path3)
